@@ -19,7 +19,11 @@ return [
 
     'allowed_methods' => ['*'],
 
-    'allowed_origins' => ['https://task-scheduler-fullstack-nine.vercel.app', 'http://localhost:5173',],
+    'allowed_origins' => [
+        'https://task-scheduler-fullstack-nine.vercel.app',
+        'http://localhost:5173',
+        'https://task-scheduler-fullstack-ndxgotzjy-it-s-me2006.vercel.app',
+        ],
 
     'allowed_origins_patterns' => [],
 
